@@ -1,32 +1,5 @@
 import { Link } from "react-router-dom";
-import { useState } from "react";
 const Header = () => {
-  const [isOpen, setIsOpen] = useState(false);
-  const [selectedFile, setSelectedFile] = useState(null);
-  const handleClose = () => {
-    setIsOpen(false);
-  };
-
-  const handleFileChange = (event) => {
-    setSelectedFile(event.target.files[0]);
-  };
-
-  const handleUpload = (event) => {
-    event.preventDefault();
-
-    if (!selectedFile) {
-      return alert("Please select an Excel file to upload.");
-    } else {
-      setIsOpen(false);
-      return alert("Successfully uploaded");
-    }
-    // const reader = new FileReader();
-    // reader.onload = (e) => {
-    //   // Process the uploaded Excel data (e.target.result)
-    //   console.log("Excel data:", e.target.result);
-    // };
-    // reader.readAsText(selectedFile);
-  };
   return (
     <>
       <div className="navbar bg-gray-900 text-white">

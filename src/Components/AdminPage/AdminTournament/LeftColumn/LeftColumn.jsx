@@ -23,12 +23,12 @@ const LeftColumn = () => {
           </button> */}
           <hr></hr>
           <p className="flex justify-between my-3">
-            Visibility: Private{" "}
+            <span className="font-bold">Visibility: Private </span>
             <button className="btn-admin-func">Publish</button>
           </p>
           <hr></hr>
           <p className="flex justify-between my-3">
-            Registration: Closed{" "}
+            <span className="font-bold">Registration: Closed </span>
             <button className="btn-admin-func">Open</button>
           </p>
         </div>
@@ -40,7 +40,9 @@ const LeftColumn = () => {
             Additional categories: ₹1,000 each
           </p>
         </div>
-        <button className="btn-left-admin bg-red-600">Cancel Tournament</button>
+        <button className="btn-left-admin bg-red-600 hover:bg-red-700">
+          Cancel Tournament
+        </button>
         <button
           className="btn-left-admin bg-cyan-500 hover:bg-cyan-600 ..."
           onClick={tournamentUpdate}

@@ -15,7 +15,7 @@ const TourCard = ({ name, address, image, tourname, dos, venue, reg }) => {
   }
   return (
     <>
-      <div className="card w-96 bg-base-100 shadow-xl m-5">
+      <div className="card w-96 shadow-xl m-5 bg-white text-black ">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn m-1">
             :
@@ -36,15 +36,20 @@ const TourCard = ({ name, address, image, tourname, dos, venue, reg }) => {
         </div>
 
         <figure>
-          <img src={image}></img>
+          <img
+            src={image}
+            alt={tourname}
+            className="w-full h-48 object-cover"
+          />
         </figure>
         <div className="card-body text-center">
-          <h2 className="card-title font-serif text-2xl">{tourname}</h2>
-
-          <p>{dos}</p>
-          <p>{venue}</p>
-          <p className="font-semibold">Reg. Deadline: </p>
-          <p>{reg}</p>
+          <h2 className="card-title font-serif text-2xl text-red-500">
+            {tourname}
+          </h2>
+          <p className="text-gray-700">{dos}</p>
+          <p className="text-gray-700">{venue}</p>
+          <p className="font-semibold text-gray-800">Reg. Deadline:</p>
+          <p className="text-gray-700">{reg}</p>
           <div className="card-actions justify-end mt-4">
             <button className="btn btn-primary" onClick={handleButton}>
               {name}

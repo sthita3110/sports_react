@@ -13,3 +13,25 @@
 .new-form-coach {
   margin: 1rem 2rem;
 }
+
+.marquee-container {
+  overflow: hidden;
+  width: 100%;
+  white-space: nowrap;
+  text-align: center; /* Center the content horizontally */
+}
+
+.marquee {
+  animation: marquee 10s linear infinite;
+  display: inline-block;
+  padding: 0 2rem; /* Adjust padding as needed */
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  } /* Start from right edge */
+  100% {
+    transform: translateX(-100%);
+  } /* Move leftwards */
+}

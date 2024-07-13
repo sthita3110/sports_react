@@ -13,20 +13,24 @@ const Coach = () => {
     "Announcement 4",
     "Announcement 5",
   ];
+
   return (
-    <>
-      <div>
-        <Header />
-        <p className="font-bold font-serif text-5xl p-5">
-          Welcome, <span>Sai</span>
+    <div className="bg-gray-900 text-white min-h-screen">
+      <Header />
+      <div className="text-center py-10">
+        <p className="font-bold font-serif text-5xl">
+          Welcome, <span className="text-red-500">Sai</span>
         </p>
       </div>
-      <div className="flex justify-center items-center">
-        <p className="text-3xl bg-gray-200 p-6 rounded-xl">
-          UPCOMING TOURNAMENTS <span className="text-sm">see all</span>
+
+      <div className="flex justify-center items-center mb-10">
+        <p className="text-3xl bg-red-500 p-6 rounded-xl shadow-md">
+          UPCOMING TOURNAMENTS{" "}
+          <span className="text-sm text-gray-200 cursor-pointer">see all</span>
         </p>
       </div>
-      <div className="flex justify-between">
+
+      <div className="flex flex-wrap justify-around px-5">
         <Card
           name={"Click here to Register"}
           image={tour1}
@@ -54,21 +58,35 @@ const Coach = () => {
           reg={"Thu 15 February 2024 11.59 pm SAST"}
           address={"/coach/tournament"}
         />
+        <Card
+          name={"Click here to Register"}
+          image={tour3}
+          tourname={"Eagles Karate Challenge"}
+          dos={"February 17, 2024"}
+          venue={"Tshwane Korfball Park, South Africa"}
+          reg={"Thu 15 February 2024 11.59 pm SAST"}
+          address={"/coach/tournament"}
+        />
       </div>
-      <div className="flex justify-center items-center">
-        <p className="text-3xl bg-gray-200 p-6 rounded-xl">
-          UPDATES <span className="text-sm">see all</span>
+
+      <div className="flex justify-center items-center mt-10">
+        <p className="text-3xl bg-red-500 p-6 rounded-xl shadow-md">
+          UPDATES{" "}
+          <span className="text-sm text-gray-200 cursor-pointer">see all</span>
         </p>
       </div>
-      <div className="text-center mt-3 mb-3">
+
+      <div className="text-center mt-5 mb-5">
         {announcements.map((line, index) => (
-          <div key={index}>{line}</div>
+          <div key={index} className="text-xl py-2 update-item">
+            {line}
+          </div>
         ))}
       </div>
-      <div className="mt-5">
-        <Footer />
-      </div>
-    </>
+
+      <Footer />
+    </div>
   );
 };
+
 export default Coach;

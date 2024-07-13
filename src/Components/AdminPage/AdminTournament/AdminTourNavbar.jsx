@@ -19,31 +19,31 @@ const AdminTourNavbar = () => {
             <div className="hidden sm:block sm:ml-6">
               <div className="flex space-x-4">
                 <Link
-                  to="/competitors"
+                  to="#"
                   className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
                   Competitors
                 </Link>
                 <Link
-                  to="/categories"
+                  to="#"
                   className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
                   Categories
                 </Link>
                 <Link
-                  to="/schedule"
+                  to="#"
                   className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
                   Schedule
                 </Link>
                 <Link
-                  to="/results"
+                  to="#"
                   className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
                   Results
                 </Link>
                 <Link
-                  to="/settings"
+                  to="#"
                   className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
                   <svg

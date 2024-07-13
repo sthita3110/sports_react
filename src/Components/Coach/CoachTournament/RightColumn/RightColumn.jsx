@@ -15,7 +15,7 @@ const RightColumn = () => {
       <div className="right-column-coach ">
         <div className="info-coach">
           <p className="font-bold font-serif text-xl">General Information</p>
-          <p className="mt-3">
+          <p className="mt-3 text-gray-500">
             Dear Colleagues, <br />I hope you are all keeping well.
             <br /> Attached please find the updated invitation for the Boland
             Dragons Karate League as well as the Indemnity Form. Once all the
@@ -32,12 +32,16 @@ const RightColumn = () => {
             <br /> Kind regards
           </p>
         </div>
-        <div>
-          <button className="btn-dwld-coach" onClick={onButtonClick}>
-            Download Tournament_Guidelines
+        <div className="mb-5 text-center">
+          <button
+            className="btn-dwld-coach bg-gray-900 text-white font-bold py-2 px-4 rounded hover:bg-red-600"
+            onClick={onButtonClick}
+          >
+            Download Tournament Guidelines
           </button>
         </div>
-        <div className="flex">
+
+        <div className="flex justify-around mb-5">
           <Event eventName={"Kata"} />
           <Event eventName={"Kumite"} />
         </div>

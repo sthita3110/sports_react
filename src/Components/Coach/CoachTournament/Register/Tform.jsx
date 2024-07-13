@@ -41,27 +41,13 @@ const Tform = () => {
           </div>
         </div>
       </div>
-      <div className="tform-body">
-        <p className="font-bold text-2xl">New Registration!!!</p>
+      <div className="tform-body marquee-container">
+        <p className="font-bold text-2xl marquee">
+          |The Journey Begins With The First Step|
+        </p>
 
         <div className="p-4 form-reg">
           <Newform />
-        </div>
-        <div className="divider">OR</div>
-
-        <div className="flex flex-col justify-center items-center mt-5 mb-5">
-          <div>
-            <p className="text-xl ml-5">Candidate ID: </p>
-            <Search onSearch={handleSearch} />
-          </div>
-          <div className="mt-6">
-            <button
-              type="submit"
-              className="p-3 m-2 bg-green-500 rounded-xl text-white"
-            >
-              Add
-            </button>
-          </div>
         </div>
       </div>
       <Footer />
