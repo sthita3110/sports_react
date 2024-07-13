@@ -1,0 +1,31 @@
+.left-column-admin {
+  flex: 0.25;
+  padding: 16px;
+  margin-left: 2.5rem;
+  margin-right: 1rem;
+  background-color: #f4f1f1;
+}
+.btn-left-admin {
+  color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 0.5rem;
+  width: 15rem;
+}
+.btn-admin-func {
+  padding: 2px 4px;
+  background-color: rgb(243, 236, 236);
+  border: none;
+  border-radius: 4px;
+  box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.details-admin {
+  background-color: rgb(232, 255, 254);
+  padding: 1rem;
+  border-radius: 10px;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  width: 14.5rem;
+}

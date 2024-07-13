@@ -1,0 +1,35 @@
+.right-column-coach {
+  flex: 0.75;
+  padding: 16px;
+  margin-left: 1rem;
+  margin-right: 2.5rem;
+  /* background-color: #f0f0f0; */
+}
+.info-coach {
+  background-color: aliceblue;
+  padding: 1.5rem;
+  margin: 1rem;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+}
+.btn-dwld-coach {
+  background-color: rgb(143, 103, 245);
+  color: black;
+  font-weight: 700;
+  padding: 1rem;
+  margin: 0.5rem 1rem;
+  border-radius: 10px;
+}
+.event-card {
+  margin: 0.5rem 1rem;
+  padding: 1rem;
+  height: 6rem;
+  width: 15rem;
+  border-radius: 10px;
+}
+.venue {
+  margin: 1rem 1rem;
+  padding: 1rem;
+  background-color: aliceblue;
+  height: 20rem;
+}

@@ -1,0 +1,113 @@
+/* body {
+  font-family: "Arial", sans-serif;
+  background: url("/public/bg-login.jpg") no-repeat center center fixed;
+  background-size: cover;
+} */
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background: url("/public/bg-login.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.login-form {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.form-title {
+  font-size: 2em;
+  font-weight: bold;
+  color: #b22222; /* Dark Red */
+}
+
+.form-subtitle {
+  color: #666;
+  margin: 10px 0 20px 0;
+}
+
+.form-control {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.label-text {
+  font-weight: bold;
+  color: #333;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.role-selection {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.role-dropdown {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.checkbox {
+  margin-right: 5px;
+}
+
+.forgot-password-link {
+  color: #b22222;
+  text-decoration: none;
+}
+
+.forgot-password-link:hover {
+  text-decoration: underline;
+}
+
+.login-button {
+  background-color: #b22222;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.login-button:hover {
+  background-color: #8b0000;
+}
+
+.signup-prompt {
+  margin-top: 20px;
+}
+
+.signup-link {
+  color: #b22222;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.signup-link:hover {
+  text-decoration: underline;
+}

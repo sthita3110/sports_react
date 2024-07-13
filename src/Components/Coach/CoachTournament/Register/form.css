@@ -1,0 +1,15 @@
+.new-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+.form-reg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.new-form-coach {
+  margin: 1rem 2rem;
+}

@@ -1,0 +1,25 @@
+.right-column-admin {
+  flex: 0.75;
+  padding: 16px;
+  margin-left: 1rem;
+  margin-right: 2.5rem;
+  /* background-color: #f0f0f0; */
+}
+.info-admin {
+  background-color: aliceblue;
+  padding: 1.5rem;
+  margin: 1rem;
+}
+.event-card-admin {
+  margin: 0.5rem 1rem;
+  padding: 1rem;
+  height: 6rem;
+  width: 15rem;
+  border-radius: 10px;
+}
+.venue-admin {
+  margin: 1rem 1rem;
+  padding: 1rem;
+  background-color: aliceblue;
+  height: 20rem;
+}

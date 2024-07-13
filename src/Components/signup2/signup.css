@@ -1,0 +1,84 @@
+.signup-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background: url("/public/bg-login.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.signup-form {
+  background-color: rgb(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.form-title {
+  font-size: 2em;
+  font-weight: bold;
+  color: #b22222; /* Dark Red */
+}
+
+.label-text {
+  font-weight: bold;
+  color: #333;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.role-selection {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.role-dropdown {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+  margin-top: 5px;
+}
+
+.signup-button {
+  background-color: #b22222;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.signup-button:hover {
+  background-color: #8b0000;
+}
+
+.login-prompt {
+  margin-top: 20px;
+}
+
+.login-link {
+  color: #b22222;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.login-link:hover {
+  text-decoration: underline;
+}

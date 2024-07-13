@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.two-column-layout {
+  display: flex;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.tform-body {
+  margin: 2rem 2.5rem;
+  padding: 1rem;
+}
+.error {
+  color: red;
+}
+.main-data-coach-profile {
+  width: 75rem;
+}
+.about-data {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: x-large;
+  display: flex;
+  flex-direction: column;
+}
+.coach-form {
+  margin: 2.5rem;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+.coach-profile-form {
+  /* margin: 4rem 3rem; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding: 1rem; */
+}
