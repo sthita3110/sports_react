@@ -16,8 +16,8 @@ const home = () => {
             <p>
               Experience the ultimate showdown of skill, strength, and spirit.
             </p>
-            <Link to="/login">
-              <button className="login-button">Login</button>
+            <Link to="/signup">
+              <button className="login-button font-bold">Register Now</button>
             </Link>
           </header>
         </div>
