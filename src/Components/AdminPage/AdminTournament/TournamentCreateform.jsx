@@ -14,39 +14,39 @@ export default function TournamentCreateform() {
   const [hEmail, sethEmail] = useState("");
   const [hMobile, sethMobile] = useState("");
   const handleCreate = () => {
-    if (tournamentName.length == 0) {
+    if (tournamentName.length === 0) {
       alert("Invalid form,tournament name can not be empty");
       return;
     }
-    if (tournamentID.length == 0) {
+    if (tournamentID.length === 0) {
       alert("Invalid Form, Tournament ID can not be empty");
       return;
     }
-    if (tournamentVenue.length == 0) {
+    if (tournamentVenue.length === 0) {
       alert("Invalid Form,Tournament Venue can not be empty");
       return;
     }
-    if (tournamentDate.length == 0) {
+    if (tournamentDate.length === 0) {
       alert("Invalid Form,Tournament Date can not be empty");
       return;
     }
-    if (registrationStart.length == 0) {
+    if (registrationStart.length === 0) {
       alert("Invalid Form,Tournament  start date can not be empty");
       return;
     }
-    if (registrationEnd.length == 0) {
+    if (registrationEnd.length === 0) {
       alert("Invalid Form,Tournament End date can not be empty");
       return;
     }
-    if (hName.length == 0) {
+    if (hName.length === 0) {
       alert("Invalid Form,name can not be empty");
       return;
     }
-    if (hEmail.length == 0) {
+    if (hEmail.length === 0) {
       alert("Invalid Form,email can not be empty");
       return;
     }
-    if (hMobile.length == 0) {
+    if (hMobile.length === 0) {
       alert("Invalid Form,mobile number can not be empty");
       return;
     }

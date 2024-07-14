@@ -51,7 +51,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <a href="/" className="flex items-center">
+                <a href="/coach" className="flex items-center">
                   <span>Settings</span>
                 </a>
               </li>

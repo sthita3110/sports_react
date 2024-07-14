@@ -15,12 +15,6 @@ const LeftColumn = () => {
           <p>Martial Arts Organisation</p>
         </div>
         <div>
-          {/* <button className="btn-left-admin bg-black">
-            <Link to={""}>register</Link>
-          </button>
-          <button className="btn-left-admin bg-black">
-            View Participant List
-          </button> */}
           <hr></hr>
           <p className="flex justify-between my-3">
             <span className="font-bold">Visibility: Private </span>

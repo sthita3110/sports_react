@@ -12,7 +12,7 @@ const Header = () => {
       <div className="mt-1 ml-10 mr-10">
         <div className="text-white bg-teal-700 font-mono pl-10 pr-10 pt-14 pb-14 flex justify-around items-center rounded-md">
           <div>
-            <img src={logoTour} className=" w-28 h-28" />
+            <img src={logoTour} alt="logotour" className=" w-28 h-28" />
           </div>
           <div className="flex flex-col justify-center items-center">
             <p
