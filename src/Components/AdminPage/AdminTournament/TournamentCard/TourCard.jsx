@@ -25,12 +25,12 @@ const TourCard = ({ name, address, image, tourname, dos, venue, reg }) => {
             className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <a href="" onClick={handleArchive} disabled={isArchived}>
+              <button onClick={handleArchive} disabled={isArchived}>
                 Archive
-              </a>
+              </button>
             </li>
             <li>
-              <a href="">Withdraw</a>
+              <button>Withdraw</button>
             </li>
           </ul>
         </div>
