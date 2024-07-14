@@ -1,4 +1,3 @@
-import Login2 from "./Login2/LoginForm";
 import "./home.css";
 import React from "react";
 import { Link } from "react-router-dom";
@@ -6,9 +5,6 @@ import { Link } from "react-router-dom";
 const home = () => {
   return (
     <>
-      {/* <div className="bg-landing-img bg-cover bg-center h-screen">
-        <Login2 />
-      </div> */}
       <div className="landing-page">
         <div className="overlay">
           <header className="header">
