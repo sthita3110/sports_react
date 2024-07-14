@@ -19,7 +19,7 @@ const Coach = () => {
       <Header />
       <div className="text-center py-10">
         <p className="font-bold font-serif text-5xl">
-          Welcome, <span className="text-red-500">Sai</span>
+          Welcome, <span className="text-red-500">Participant</span>
         </p>
       </div>
 

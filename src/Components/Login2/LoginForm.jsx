@@ -74,8 +74,7 @@ const LoginForm = () => {
             aria-label="Select Role"
           >
             <option value="Admin">Admin</option>
-            <option value="Coach">Coach</option>
-            <option value="Athlete">Athlete</option>
+            <option value="Coach">Participant</option>
           </select>
         </div>
         <div className="form-options">

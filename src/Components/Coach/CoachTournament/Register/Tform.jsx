@@ -1,4 +1,3 @@
-import Search from "../../../../Shared/Search";
 import Footer from "../../../Footer/Footer";
 import logoTour from "../../../../Images/logoTour.png";
 import { Link } from "react-router-dom";
@@ -7,9 +6,6 @@ import Newform from "./Newform";
 import "./form.css";
 
 const Tform = () => {
-  const handleSearch = (query) => {
-    console.log(`Searching for: ${query}`);
-  };
   return (
     <>
       <Navbar />

@@ -1,4 +1,5 @@
 import Input from "../../../../Shared/Input";
+import { Link } from "react-router-dom";
 
 const Newform = () => {
   return (
@@ -47,6 +48,14 @@ const Newform = () => {
         <div className="flex items-center">
           <p className="mr-3 w-24">Contact:</p>
           <Input type="number" placeholder="Type here" />
+        </div>
+        <div className="flex items-center"></div>
+        <div className="flex items-center">
+          <div className="px-6 py-4 border-2 rounded-md bg-green-600 hover:bg-green-700 text-white">
+            <button>
+              <Link to={"/coach/tournament"}>Save & Register</Link>
+            </button>
+          </div>
         </div>
       </div>
     </div>
